@@ -42,11 +42,15 @@ public class BiomeDetector : MonoBehaviour
             
             for(int i=0; i<biomes.Length; i++)
             {
-                if (((int)(h.r * 1000) == (int)(biomes[i].colorValue.r * 1000)) && ((int)(h.b * 1000) == (int)(biomes[i].colorValue.b * 1000)) && ((int)(h.g * 1000) == (int)(biomes[i].colorValue.g * 1000)))
-                {
+                int r1 = (int)(h.r * 100);
+                int r2 = (int)(biomes[i].colorValue.r * 100);
+                int g1 = (int)(h.g * 100);
+                int g2 = (int)(biomes[i].colorValue.g * 100);
+                int b1 = (int)(h.b * 100);
+                int b2 = (int)(biomes[i].colorValue.b * 100);
+                if ((r1 == r2 || r1 + 1 == r2 || r1-1 == r2) && (g1 == g2 || g1 + 1 == g2 || g1 - 1 == g2) && (b1 == b2 || b1 + 1 == b2 || b1 - 1 == b2))
                     actBiome = biomes[i].name;
-                    Debug.Log(actBiome);
-                }
+                Debug.Log(actBiome);                   
             }
         }
     }
