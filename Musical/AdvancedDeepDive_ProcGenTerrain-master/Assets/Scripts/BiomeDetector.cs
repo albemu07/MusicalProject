@@ -20,7 +20,11 @@ public class BiomeDetector : MonoBehaviour
     BiomeDetecValue[] biomes;
 
     [SerializeField]
+    float radiusForBlend;
+
+    [SerializeField]
     string actBiome;
+    string nextBiome;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,19 +43,44 @@ public class BiomeDetector : MonoBehaviour
         {
             Debug.DrawRay(transform.position + new Vector3(0, 1, 0), transform.TransformDirection(Vector3.down) * hit.distance, Color.green);
             Color h = im.GetPixel((int)(hit.textureCoord.x*im.width), (int)(hit.textureCoord.y*im.height));
-            
-            for(int i=0; i<biomes.Length; i++)
+
+            actBiome = CheckColor(h).name;
+        }
+
+        int rot = 360 / 12;
+        Vector3 dir = new Vector3(1, 0, 0) * radiusForBlend;
+        List<BiomeDetecValue> biomesArround = new List<BiomeDetecValue>();
+        for (int i = 0; i < 12; i++)
+        {
+            dir = (Quaternion.AngleAxis(rot, Vector3.up) * dir);
+            Debug.Log(dir);
+            if (Physics.Raycast(transform.position + new Vector3(0, 1, 0) + dir, transform.TransformDirection(Vector3.down), out hit, Mathf.Infinity, layerMask))
             {
-                int r1 = (int)(h.r * 100);
-                int r2 = (int)(biomes[i].colorValue.r * 100);
-                int g1 = (int)(h.g * 100);
-                int g2 = (int)(biomes[i].colorValue.g * 100);
-                int b1 = (int)(h.b * 100);
-                int b2 = (int)(biomes[i].colorValue.b * 100);
-                if ((r1 == r2 || r1 + 1 == r2 || r1-1 == r2) && (g1 == g2 || g1 + 1 == g2 || g1 - 1 == g2) && (b1 == b2 || b1 + 1 == b2 || b1 - 1 == b2))
-                    actBiome = biomes[i].name;
-                Debug.Log(actBiome);                   
+                Debug.DrawRay(transform.position + new Vector3(0, 1, 0) + dir, transform.TransformDirection(Vector3.down) * hit.distance, Color.red);
+                Color h = im.GetPixel((int)(hit.textureCoord.x * im.width), (int)(hit.textureCoord.y * im.height));
+
+                BiomeDetecValue b = CheckColor(h);
+                if (b.name != actBiome)
+                    biomesArround.Add(b);
             }
         }
+    }
+
+    BiomeDetecValue CheckColor(Color h)
+    {
+        BiomeDetecValue biome = null;
+        for (int i = 0; i < biomes.Length; i++)
+        {
+            int r1 = (int)(h.r * 100);
+            int r2 = (int)(biomes[i].colorValue.r * 100);
+            int g1 = (int)(h.g * 100);
+            int g2 = (int)(biomes[i].colorValue.g * 100);
+            int b1 = (int)(h.b * 100);
+            int b2 = (int)(biomes[i].colorValue.b * 100);
+            if ((r1 == r2) && (g1 == g2) && (b1 == b2))
+                biome = biomes[i];
+        }
+
+        return biome;
     }
 }
