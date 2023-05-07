@@ -1,0 +1,192 @@
+{
+    "sourceproject": "D:\oskar\Documents\4V\2Cuatri\MusicalProject\Musical\finalProject/finalProject.rpp",
+    "markers": [
+        {
+            "name": "Intro",
+            "position": 0.000000
+        },
+        {
+            "name": "Mid",
+            "position": 16.000000
+        }
+    ],
+    "audiotracks": [
+        {
+            "type": "master",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Primer-tema",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Melodias",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "pre-melodia",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 0.000000,
+                    "end": 16.000000,
+                    "audio": "pre-melodia_region_01.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Melodia-principal",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "Melodia-principal_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "celeste",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "celeste_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "voices",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "voices_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trumpets",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "trumpets_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trombones",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "trombones_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-celli",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 0.000000,
+                    "end": 16.000000,
+                    "audio": "Acordes-celli_region_01.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "Acordes-celli_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-bases",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 0.000000,
+                    "end": 16.000000,
+                    "audio": "Acordes-bases_region_01.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 80.000000,
+                    "audio": "Acordes-bases_region_02.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Segundo-tema",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Track 13",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Track 14",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-celli",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-bases",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-violines",
+            "instruments": [
+
+            ]
+        }
+    ]
+}

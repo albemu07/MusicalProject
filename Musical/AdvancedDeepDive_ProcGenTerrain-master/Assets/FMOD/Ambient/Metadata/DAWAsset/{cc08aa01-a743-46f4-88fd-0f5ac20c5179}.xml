@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{cc08aa01-a743-46f4-88fd-0f5ac20c5179}">
+		<property name="assetPath">
+			<value>finalProject.rpp.link/Acordes-celli_region_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>16</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{36a21c04-3cbf-4fe1-8192-840ebd47deb2}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{bbf1c5ab-2746-458b-ac26-0b02377297cf}</destination>
+		</relationship>
+	</object>
+</objects>
