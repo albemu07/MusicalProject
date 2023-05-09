@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{58a83cf0-fe0b-4014-b44a-955c344db1d3}">
+		<property name="assetPath">
+			<value>finalProject.rpp.link/Melodias1_region_02.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>64</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{36a21c04-3cbf-4fe1-8192-840ebd47deb2}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{78397497-4105-4d3b-9866-632e1c2cf808}</destination>
+		</relationship>
+	</object>
+</objects>
