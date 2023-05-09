@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.77/win64" 1683671301
+<REAPER_PROJECT 0.1 "6.77/win64" 1683672137
   <NOTES 0 2
   >
   RIPPLE 0
@@ -16,9 +16,9 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 260
-  ZOOM 49.31004741345783 0 0
-  VZOOMEX 0 722
+  CURSOR 237
+  ZOOM 12.5625 2539 0
+  VZOOMEX 0 713
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -60,8 +60,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 230.5 228.5
-  SELECTION2 230.5 228.5
+  SELECTION 240 242
+  SELECTION2 240 242
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -372,7 +372,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 24
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -645,7 +645,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 24
+      POSITION 32
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -908,7 +908,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 38
+      POSITION 46
       SNAPOFFS 0
       LENGTH 50
       LOOP 1
@@ -992,14 +992,13 @@
       DEFSHAPE 4 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 66 0 0
-      PT 68 0.83978418 0
-      PT 72 0.85934527 0
-      PT 72 0.85934527 0
-      PT 86 0.82066836 5 2 1 0 0.50000381
-      PT 88 0.00110686 5 2
-      PT 88.0005 0.00132566 0
-      PT 89.0005 0.00067838 5 2
+      PT 74 0 0
+      PT 76 0.92080504 0
+      PT 80 0.85934527 0
+      PT 94 0.82066836 5 2 0 0 0.50000381
+      PT 96 0.00110686 5 2
+      PT 96.0005 0.00243006 0
+      PT 98.0005 0.00067838 5 2
     >
     <FXCHAIN
       WNDRECT -106 38 1406 763
@@ -1241,7 +1240,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 72
+      POSITION 80
       SNAPOFFS 0
       LENGTH 16
       LOOP 1
@@ -1474,7 +1473,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 54
+      POSITION 62
       SNAPOFFS 0
       LENGTH 2
       LOOP 1
@@ -1526,7 +1525,7 @@
       >
     >
     <ITEM
-      POSITION 56
+      POSITION 64
       SNAPOFFS 0
       LENGTH 32
       LOOP 1
@@ -1759,7 +1758,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 38
+      POSITION 46
       SNAPOFFS 0
       LENGTH 2
       LOOP 1
@@ -1811,7 +1810,7 @@
       >
     >
     <ITEM
-      POSITION 40
+      POSITION 48
       SNAPOFFS 0
       LENGTH 48
       LOOP 1
@@ -2166,7 +2165,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 24
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -2216,7 +2215,7 @@
       >
     >
     <ITEM
-      POSITION 24
+      POSITION 32
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -2506,7 +2505,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 24
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -2556,7 +2555,7 @@
       >
     >
     <ITEM
-      POSITION 24
+      POSITION 32
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -2856,9 +2855,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 90
+      POSITION 96
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -3102,7 +3101,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 112
+      POSITION 128
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -3361,7 +3360,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 128
+      POSITION 144
       SNAPOFFS 0
       LENGTH 48
       LOOP 1
@@ -3444,11 +3443,13 @@
       ARM 0
       DEFSHAPE 5 -1 -1
       VOLTYPE 1
-      PT 0 0 0 0 1
-      PT 154 0 5 1
-      PT 155.5 0.87726702 5 1
-      PT 173.5 0.87936199 4
-      PT 176 0.00001755 4
+      PT 0 0 0
+      PT 170 0 5 1
+      PT 174 1.20226443 0
+      PT 189.5 0.87936199 4
+      PT 192 0.00001755 5 2
+      PT 192.0005 0.00026545 0
+      PT 195.0005 0.00001755 5 2
     >
     <FXCHAIN
       WNDRECT 184 91 1406 763
@@ -3693,7 +3694,7 @@
       >
     >
     <ITEM
-      POSITION 160
+      POSITION 176
       SNAPOFFS 0
       LENGTH 16
       LOOP 1
@@ -4026,7 +4027,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 142
+      POSITION 158
       SNAPOFFS 0
       LENGTH 2
       LOOP 1
@@ -4078,7 +4079,7 @@
       >
     >
     <ITEM
-      POSITION 144
+      POSITION 160
       SNAPOFFS 0
       LENGTH 32
       LOOP 1
@@ -4311,7 +4312,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 126
+      POSITION 142
       SNAPOFFS 0
       LENGTH 2
       LOOP 1
@@ -4363,7 +4364,7 @@
       >
     >
     <ITEM
-      POSITION 128
+      POSITION 144
       SNAPOFFS 0
       LENGTH 48
       LOOP 1
@@ -4716,9 +4717,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 90
+      POSITION 96
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -4768,7 +4769,7 @@
       >
     >
     <ITEM
-      POSITION 112
+      POSITION 128
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -5105,9 +5106,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 90
+      POSITION 96
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -5157,7 +5158,7 @@
       >
     >
     <ITEM
-      POSITION 112
+      POSITION 128
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -5457,9 +5458,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 176
+      POSITION 192
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -5569,7 +5570,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 0
+    SEL 1
     REC 0 4096 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -5735,7 +5736,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 198
+      POSITION 224
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -5743,7 +5744,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {1E7FD0AA-C7F6-42DF-928D-36CB2EFBF14D}
       IID 1
       NAME "untitled MIDI item"
@@ -6036,7 +6037,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 214
+      POSITION 240
       SNAPOFFS 0
       LENGTH 48
       LOOP 1
@@ -6044,7 +6045,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {29C7D751-69E3-4A26-B0C4-2535E6DE8741}
       IID 1
       NAME "untitled MIDI item"
@@ -6148,7 +6149,7 @@
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
-    SEL 1
+    SEL 0
     REC 0 4096 1 0 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -6168,11 +6169,10 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0 0
-      PT 240 0.0000004 0
-      PT 242 0.5235251 0
-      PT 245 0.72266581 0
-      PT 260 1.07151931 4 0 1
-      PT 262 0.00756724 4 0 1
+      PT 266 0 0
+      PT 270 1.25892541 0 0 1
+      PT 286 1.07151931 4
+      PT 288 0.00756724 5 2
     >
     <FXCHAIN
       WNDRECT -106 38 1406 763
@@ -6414,7 +6414,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 246
+      POSITION 272
       SNAPOFFS 0
       LENGTH 16
       LOOP 1
@@ -6422,7 +6422,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {5F433D44-9E2C-4ECE-B4D6-DBC428510333}
       IID 1
       NAME "untitled MIDI item"
@@ -6655,7 +6655,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 228
+      POSITION 254
       SNAPOFFS 0
       LENGTH 34
       LOOP 1
@@ -6663,7 +6663,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {379B3CED-814A-4C28-AD64-97DBD6B02608}
       IID 1
       NAME "untitled MIDI item"
@@ -6896,7 +6896,7 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 212
+      POSITION 238
       SNAPOFFS 0
       LENGTH 50
       LOOP 1
@@ -6904,7 +6904,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {0161D17F-1EA3-4642-96F6-D07E61C4C9FF}
       IID 1
       NAME "untitled MIDI item"
@@ -7257,9 +7257,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 176
+      POSITION 192
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -7309,7 +7309,7 @@
       >
     >
     <ITEM
-      POSITION 198
+      POSITION 224
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -7317,7 +7317,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {4A5AD528-B772-41BD-AD9A-DAEDF4205A4B}
       IID 22
       NAME "Acordes untitled MIDI item"
@@ -7670,9 +7670,9 @@
       WAK 0 0
     >
     <ITEM
-      POSITION 176
+      POSITION 192
       SNAPOFFS 0
-      LENGTH 22
+      LENGTH 32
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0
@@ -7722,7 +7722,7 @@
       >
     >
     <ITEM
-      POSITION 198
+      POSITION 224
       SNAPOFFS 0
       LENGTH 64
       LOOP 1
@@ -7730,7 +7730,7 @@
       FADEIN 1 0 0 1 0 0 0
       FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
+      SEL 1
       IGUID {CFD29510-9B23-45A6-A6C1-EBAD9744152E}
       IID 22
       NAME "Acordes untitled MIDI item"
