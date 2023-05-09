@@ -29,7 +29,7 @@
                 {
                     "type": "single",
                     "start": 16.000000,
-                    "end": 96.000000,
+                    "end": 80.000000,
                     "audio": "Melodias1_region_02.wav"
                 }
             ]
@@ -89,7 +89,7 @@
                 {
                     "type": "single",
                     "start": 16.000000,
-                    "end": 96.000000,
+                    "end": 80.000000,
                     "audio": "Acordes1_region_02.wav"
                 }
             ]
