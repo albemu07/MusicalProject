@@ -28,9 +28,12 @@ public class BiomeDetector : MonoBehaviour
     [SerializeField]
     string nextBiome;
 
+    [SerializeField]
+    float dist;
+
     StudioEventEmitter emitter;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         emitter = GetComponent<StudioEventEmitter>();
         emitter.EventInstance.setParameterByNameWithLabel("ActBiome", actBiome);
@@ -84,9 +87,13 @@ public class BiomeDetector : MonoBehaviour
             }
 
             nextBiome = biomesArround[menor].Item1.name;
+            dist = dists[menor] / radiusForBlend;
         }
         else
+        {
             nextBiome = "None";
+            dist = 0.0f;
+        }
 
         emitter.EventInstance.setParameterByNameWithLabel("ClosestBiome", nextBiome);
     }
