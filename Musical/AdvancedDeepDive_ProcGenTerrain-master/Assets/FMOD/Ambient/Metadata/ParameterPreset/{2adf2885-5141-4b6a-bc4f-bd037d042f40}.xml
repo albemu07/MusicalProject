@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2adf2885-5141-4b6a-bc4f-bd037d042f40}">
+		<property name="name">
+			<value>ActBiome</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e5a8366e-f360-4de0-9d3b-c245a0ad5303}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{0160d0a3-0218-4273-97e5-060008dcc58d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{0160d0a3-0218-4273-97e5-060008dcc58d}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Forest</value>
+			<value>Desert</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

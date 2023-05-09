@@ -1367,11 +1367,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2104323776007247686, guid: e8c210deacd13b9489985aa64cd18939, type: 3}
   m_PrefabInstance: {fileID: 1785946759}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1810403431 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
-  m_PrefabInstance: {fileID: 3515378426550449578}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1863937876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1721,12 +1716,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2800000, guid: 797a29be0606df34f9c98b5087cbd6b8, type: 3}
     - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: music.Path
+      value: event:/finalProject
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: biomes.name
       value: Desert
       objectReference: {fileID: 0}
     - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: radiusForBlend
       value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: music.Guid.Data1
+      value: 1342704864
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: music.Guid.Data2
+      value: 1282775388
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: music.Guid.Data3
+      value: -1554518113
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+      propertyPath: music.Guid.Data4
+      value: -1815928781
       objectReference: {fileID: 0}
     - target: {fileID: 3393854805142167771, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: biomes.Array.size
@@ -1854,15 +1869,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -366
+      value: -401
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.92999995
+      value: -41
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -142
+      value: -387
       objectReference: {fileID: 0}
     - target: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1923,15 +1938,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -365.84622
+      value: -400.84622
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.44499913
+      value: -39.625
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -145.0769
+      value: -390.0769
       objectReference: {fileID: 0}
     - target: {fileID: 2070925441746177912, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1996,15 +2011,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -365.84622
+      value: -400.84622
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.44499913
+      value: -39.625
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -145.0769
+      value: -390.0769
       objectReference: {fileID: 0}
     - target: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2039,24 +2054,8 @@ PrefabInstance:
     - {fileID: -1663948958951567049, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8944336655422409498, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5976582693277393550}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}
---- !u!114 &5976582693277393550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1810403431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attenuationObject: {fileID: 0}
 --- !u!4 &5976582693277393551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8944336655422409503, guid: f6d148d888ffbf54b9afe9936dfaec1f, type: 3}

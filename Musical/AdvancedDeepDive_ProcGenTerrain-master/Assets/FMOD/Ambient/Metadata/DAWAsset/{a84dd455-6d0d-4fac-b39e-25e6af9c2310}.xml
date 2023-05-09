@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DAWAsset" id="{a84dd455-6d0d-4fac-b39e-25e6af9c2310}">
+		<property name="assetPath">
+			<value>finalProject.rpp.link/Primer-tema_region_01.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>16</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{36a21c04-3cbf-4fe1-8192-840ebd47deb2}</destination>
+		</relationship>
+		<relationship name="project">
+			<destination>{cd9c8ad9-75f3-4129-a5e3-f747d8a6fe5a}</destination>
+		</relationship>
+	</object>
+</objects>

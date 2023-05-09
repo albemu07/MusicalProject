@@ -1,14 +1,6 @@
 {
     "sourceproject": "D:\oskar\Documents\4V\2Cuatri\MusicalProject\Musical\finalProject/finalProject.rpp",
     "markers": [
-        {
-            "name": "Intro",
-            "position": 0.000000
-        },
-        {
-            "name": "Mid",
-            "position": 16.000000
-        }
     ],
     "audiotracks": [
         {
@@ -28,122 +20,92 @@
             "type": "group",
             "name": "Melodias",
             "instruments": [
-
+                {
+                    "type": "single",
+                    "start": 0.000000,
+                    "end": 16.000000,
+                    "audio": "Melodias_region_01.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 96.000000,
+                    "audio": "Melodias_region_02.wav"
+                }
             ]
         },
         {
             "type": "group",
             "name": "pre-melodia",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 0.000000,
-                    "end": 16.000000,
-                    "audio": "pre-melodia_region_01.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "Melodia-principal",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "Melodia-principal_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "celeste",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "celeste_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "voices",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "voices_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "trumpets",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "trumpets_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "trombones",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "trombones_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "Acordes",
             "instruments": [
-
+                {
+                    "type": "single",
+                    "start": 0.000000,
+                    "end": 16.000000,
+                    "audio": "Acordes_region_01.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 16.000000,
+                    "end": 96.000000,
+                    "audio": "Acordes_region_02.wav"
+                }
             ]
         },
         {
             "type": "group",
             "name": "Acordes-celli",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 0.000000,
-                    "end": 16.000000,
-                    "audio": "Acordes-celli_region_01.wav"
-                },
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "Acordes-celli_region_02.wav"
-                }
+
             ]
         },
         {
             "type": "group",
             "name": "Acordes-bases",
             "instruments": [
-                {
-                    "type": "single",
-                    "start": 0.000000,
-                    "end": 16.000000,
-                    "audio": "Acordes-bases_region_01.wav"
-                },
-                {
-                    "type": "single",
-                    "start": 16.000000,
-                    "end": 80.000000,
-                    "audio": "Acordes-bases_region_02.wav"
-                }
+
             ]
         },
         {
@@ -155,14 +117,113 @@
         },
         {
             "type": "group",
-            "name": "Track 13",
+            "name": "Melodias",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 96.000000,
+                    "end": 112.000000,
+                    "audio": "Melodias_region_03.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 112.000000,
+                    "end": 192.000000,
+                    "audio": "Melodias_region_04.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "pre-melodia",
             "instruments": [
 
             ]
         },
         {
             "type": "group",
-            "name": "Track 14",
+            "name": "Melodia-principal",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "celeste",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "voices",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trumpets",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trombones",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 96.000000,
+                    "end": 112.000000,
+                    "audio": "Acordes_region_03.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 112.000000,
+                    "end": 192.000000,
+                    "audio": "Acordes_region_04.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-celli",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-bases",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "no se yo",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Track 24",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Track 25",
             "instruments": [
 
             ]

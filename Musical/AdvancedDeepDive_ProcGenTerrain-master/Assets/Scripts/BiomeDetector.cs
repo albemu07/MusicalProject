@@ -1,3 +1,4 @@
+using FMODUnity;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -26,10 +27,14 @@ public class BiomeDetector : MonoBehaviour
     string actBiome;
     [SerializeField]
     string nextBiome;
+
+    private FMOD.Studio.EventInstance musicInstance;
+    public EventReference music;
     // Start is called before the first frame update
     void Start()
     {
-
+        musicInstance = RuntimeManager.CreateInstance(music);
+        musicInstance.start();
     }
 
     // Update is called once per frame
@@ -46,6 +51,7 @@ public class BiomeDetector : MonoBehaviour
             Color h = im.GetPixel((int)(hit.textureCoord.x * im.width), (int)(hit.textureCoord.y * im.height));
 
             actBiome = CheckColor(h).name;
+            musicInstance.setParameterByNameWithLabel("ActBiome", actBiome);
         }
 
         //Raycast que rodean para detectar biomas cercanos
