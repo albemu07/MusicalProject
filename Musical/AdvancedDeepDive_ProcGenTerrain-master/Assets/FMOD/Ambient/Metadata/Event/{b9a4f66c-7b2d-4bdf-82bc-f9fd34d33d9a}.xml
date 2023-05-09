@@ -557,10 +557,10 @@
 	</object>
 	<object class="LoopRegion" id="{6bcb9c6a-1551-4d09-bd9d-f333860266c4}">
 		<property name="position">
-			<value>48</value>
+			<value>32</value>
 		</property>
 		<property name="length">
-			<value>32</value>
+			<value>48</value>
 		</property>
 		<property name="name">
 			<value>LoopTema1</value>
@@ -617,10 +617,10 @@
 	</object>
 	<object class="LoopRegion" id="{d90984cc-3ba7-436f-af2d-a82e6d1e450a}">
 		<property name="position">
-			<value>128</value>
+			<value>112</value>
 		</property>
 		<property name="length">
-			<value>32</value>
+			<value>48</value>
 		</property>
 		<property name="name">
 			<value>Tema2</value>
@@ -677,10 +677,10 @@
 	</object>
 	<object class="LoopRegion" id="{50a6dac4-8273-42a6-b456-26c50287260f}">
 		<property name="position">
-			<value>208</value>
+			<value>192</value>
 		</property>
 		<property name="length">
-			<value>32</value>
+			<value>48</value>
 		</property>
 		<property name="name">
 			<value>Tema3</value>
