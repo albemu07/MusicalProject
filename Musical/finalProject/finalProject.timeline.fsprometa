@@ -18,19 +18,19 @@
         },
         {
             "type": "group",
-            "name": "Melodias",
+            "name": "Melodias1",
             "instruments": [
                 {
                     "type": "single",
                     "start": 0.000000,
                     "end": 16.000000,
-                    "audio": "Melodias_region_01.wav"
+                    "audio": "Melodias1_region_01.wav"
                 },
                 {
                     "type": "single",
                     "start": 16.000000,
                     "end": 96.000000,
-                    "audio": "Melodias_region_02.wav"
+                    "audio": "Melodias1_region_02.wav"
                 }
             ]
         },
@@ -78,19 +78,19 @@
         },
         {
             "type": "group",
-            "name": "Acordes",
+            "name": "Acordes1",
             "instruments": [
                 {
                     "type": "single",
                     "start": 0.000000,
                     "end": 16.000000,
-                    "audio": "Acordes_region_01.wav"
+                    "audio": "Acordes1_region_01.wav"
                 },
                 {
                     "type": "single",
                     "start": 16.000000,
                     "end": 96.000000,
-                    "audio": "Acordes_region_02.wav"
+                    "audio": "Acordes1_region_02.wav"
                 }
             ]
         },
@@ -117,19 +117,19 @@
         },
         {
             "type": "group",
-            "name": "Melodias",
+            "name": "Melodias2",
             "instruments": [
                 {
                     "type": "single",
                     "start": 96.000000,
                     "end": 112.000000,
-                    "audio": "Melodias_region_03.wav"
+                    "audio": "Melodias2_region_03.wav"
                 },
                 {
                     "type": "single",
                     "start": 112.000000,
-                    "end": 192.000000,
-                    "audio": "Melodias_region_04.wav"
+                    "end": 176.000000,
+                    "audio": "Melodias2_region_04.wav"
                 }
             ]
         },
@@ -177,19 +177,118 @@
         },
         {
             "type": "group",
-            "name": "Acordes",
+            "name": "Acordes2",
             "instruments": [
                 {
                     "type": "single",
                     "start": 96.000000,
                     "end": 112.000000,
-                    "audio": "Acordes_region_03.wav"
+                    "audio": "Acordes2_region_03.wav"
                 },
                 {
                     "type": "single",
                     "start": 112.000000,
+                    "end": 176.000000,
+                    "audio": "Acordes2_region_04.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-celli",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes-bases",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Tercer-tema",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Melodias3",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 176.000000,
                     "end": 192.000000,
-                    "audio": "Acordes_region_04.wav"
+                    "audio": "Melodias3_region_05.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 192.000000,
+                    "end": 256.000000,
+                    "audio": "Melodias3_region_06.wav"
+                }
+            ]
+        },
+        {
+            "type": "group",
+            "name": "pre-melodia",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Melodia-principal",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "celeste",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "voices",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trumpets",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "trombones",
+            "instruments": [
+
+            ]
+        },
+        {
+            "type": "group",
+            "name": "Acordes3",
+            "instruments": [
+                {
+                    "type": "single",
+                    "start": 176.000000,
+                    "end": 192.000000,
+                    "audio": "Acordes3_region_05.wav"
+                },
+                {
+                    "type": "single",
+                    "start": 192.000000,
+                    "end": 256.000000,
+                    "audio": "Acordes3_region_06.wav"
                 }
             ]
         },
@@ -216,14 +315,14 @@
         },
         {
             "type": "group",
-            "name": "Track 24",
+            "name": "Track 35",
             "instruments": [
 
             ]
         },
         {
             "type": "group",
-            "name": "Track 25",
+            "name": "Track 36",
             "instruments": [
 
             ]

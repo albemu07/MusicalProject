@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{4986e25e-df4a-4b90-9202-542ca9184054}">
+		<property name="name">
+			<value>ClosestBiome</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e5a8366e-f360-4de0-9d3b-c245a0ad5303}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b84ab073-6da8-412b-8476-47938e99d378}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b84ab073-6da8-412b-8476-47938e99d378}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>None</value>
+			<value>Forest</value>
+			<value>Swamp</value>
+			<value>Bush</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

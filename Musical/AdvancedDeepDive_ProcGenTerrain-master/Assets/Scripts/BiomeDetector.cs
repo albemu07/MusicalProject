@@ -33,6 +33,8 @@ public class BiomeDetector : MonoBehaviour
     void Start()
     {
         emitter = GetComponent<StudioEventEmitter>();
+        emitter.EventInstance.setParameterByNameWithLabel("ActBiome", actBiome);
+        emitter.EventInstance.setParameterByNameWithLabel("ClosestBiome", nextBiome);
     }
 
     // Update is called once per frame
@@ -84,7 +86,9 @@ public class BiomeDetector : MonoBehaviour
             nextBiome = biomesArround[menor].Item1.name;
         }
         else
-            nextBiome = "";
+            nextBiome = "None";
+
+        emitter.EventInstance.setParameterByNameWithLabel("ClosestBiome", nextBiome);
     }
 
     BiomeDetecValue CheckColor(Color h)
